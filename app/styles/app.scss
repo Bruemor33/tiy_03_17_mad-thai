@@ -6,6 +6,14 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
 
+
+
+/************************************************************************************************
+GLOLBAL
+************************************************************************************************/
+
+
+
 *,
 *::before,
 *::after {
@@ -15,3 +23,127 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+
+.col-xs-2{
+  width: 140px;
+}
+
+
+/************************************************************************************************
+HEADER
+************************************************************************************************/
+
+
+
+
+.nav-container{
+  background-color: #29405B;
+
+  .nav-items{
+    color: #FFF;
+    float: right;
+    .item1{
+      display: inline-block;
+    }
+
+    .item2{
+      display: inline-block;
+    }
+
+    .item3{
+      display: inline-block;
+    }
+  }
+}
+
+.header-image{
+  background-image: url(../images/header-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+#nav-background{
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  .rest-info{
+    padding-left: 80px;
+
+    .logo{
+      width: 120px;
+      height: 140px;
+      display: inline-block;
+      margin-top: 70px;
+      padding: 10px 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 15px;
+    }
+
+    .rest-content{
+
+
+      #rest-name{
+        display: inline-block;
+        margin-top: 85px;
+      }
+
+      .address{
+        display: block;
+      }
+
+      .head-reviews{
+        display: block;
+      }
+
+      .operation-hours{
+        display: inline-block;
+      }
+
+      .deliver-time{
+        display: inline-block;
+      }
+
+      .driver-cost{
+        display: inline-block;
+      }
+
+    }
+
+  }
+
+  .page-buttons{
+    padding-left: 80px;
+    position: relative;
+    top: 57px;
+  }
+
+}
+
+
+
+
+/************************************************************************************************
+MAIN
+************************************************************************************************/
+
+
+
+
+
+
+
+/************************************************************************************************
+FOOTER
+************************************************************************************************/
+
+
+
+
+
+
+
+/************************************************************************************************
+GLOLBAL
+************************************************************************************************/
