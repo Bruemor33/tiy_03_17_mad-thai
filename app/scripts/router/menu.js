@@ -6,8 +6,8 @@ var $ = require('jquery');
 console.log("Hello World!");
 
 //Local imports
-var MenuCollection = require('./models/item-model.js');
-var CartCollection = require('./models/cart.js');
+var MenuCollection = require('../models/item-model.js');
+var CartCollection = require('../models/cart.js');
 
 var menu = new MenuCollection([
   {

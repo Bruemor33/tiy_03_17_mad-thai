@@ -19,7 +19,7 @@ var DishItem = React.createClass({
 
     return (
       <div className="entre-items">
-        <Entres collection={this.props.menu} onClick={this.handleClick} />
+        <Entres collection={this.props.entreCollection} onClick={this.handleClick} />
       </div>
     )
   }
@@ -56,7 +56,7 @@ var Entres = React.createClass({
     }.bind(this));
     return (
       <div>
-        
+
       </div>
     )
   }
