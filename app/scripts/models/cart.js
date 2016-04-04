@@ -4,14 +4,14 @@ var ReactDOM = require('react-dom');
 var $ = require('jquery');
 
 //Item Model
-var MenuItem = Backbone.Model.extend({
+var CartItem = Backbone.Model.extend({
   'idAttribute': "id"
 });
 
 //Menu Collection
-var MenuCollection = Backbone.Collection.extend({
-  model: MenuItem
+var CartCollection = Backbone.Collection.extend({
+  model: CartItem
 });
 
 //Exports
-module.exports = MenuCollection;
+module.exports = CartCollection;

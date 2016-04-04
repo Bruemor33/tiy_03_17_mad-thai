@@ -35,9 +35,13 @@
               </div>
             </div>
             <div class="row page-buttons">
-              <button type="button" class="btn btn-success">Menu</button>
-              <button type="button" class="btn btn-success">Hours and Info</button>
-              <button type="button" class="btn btn-success">Reviews</button>
+              <div class="col-xs-12">
+                <ul class="nav nav-tabs">
+                  <li id="menu-tab" class="active"><a data-toggle="tab" href="#home">Menu</a></li>
+                  <li id="hours-tab"><a data-toggle="tab" href="#menu1">Hours and Location</a></li>
+                  <li id="review-tab"><a data-toggle="tab" href="#menu2">Reviews</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -45,14 +49,44 @@
     </header>
 
     <main>
-      <div class="container">
-        
+      <!-- Menu Container -->
+      <div id="menu" class="container">
+        <div class="col-xs-12">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Entres</a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse in">
+                <div id="entres" class="panel-body">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hours and Location Container -->
+      <div id="hours" class="container">
+
+      </div>
+
+      <!-- Bogus Reviews to draw in Patrons -->
+      <div id="patrons" class="container">
+
       </div>
     </main>
 
     <footer>
       <div class="container-fluid">
-
+        <p>filler</p>
+        <p>filler</p>
+        <p>filler</p>
+        <p>filler</p>
+        <p>filler</p>
       </div>
     </footer>
 
